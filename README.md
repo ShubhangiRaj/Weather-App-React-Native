@@ -3,7 +3,8 @@
 Type city name to fetch current weather report from OpenWeatherMap API.
 
 ### Screenshots
-[./img/screenshot_1.jpeg]
+![Screenshot 1][./img/screenshot_1.jpeg]
+![Screenshot 2][./img/screenshot_2.jpeg]
 
 ### Implementation
 ```
