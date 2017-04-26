@@ -2,6 +2,9 @@
 
 Type city name to fetch current weather report from OpenWeatherMap API.
 
+### Screenshots
+[./img/screenshot_1.jpeg]
+
 ### Implementation
 ```
 // Fecth API to get data from the OpenWeatherMap API 
