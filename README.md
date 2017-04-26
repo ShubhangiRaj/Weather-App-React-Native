@@ -1,6 +1,6 @@
 # Weather-App-React-Native
 
-- Type city name to fetch current weather report from OpenWeatherMap API.
+Type city name to fetch current weather report from OpenWeatherMap API.
 
 ### Implementation
 ```
