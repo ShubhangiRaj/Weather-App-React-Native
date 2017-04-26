@@ -2,10 +2,6 @@
 
 Type city name to fetch current weather report from OpenWeatherMap API.
 
-### Screenshots
-![Screenshot 1](./WeatherApp/img/screenshot_1.jpeg?raw=true "Title")
-![Screenshot 2](./WeatherApp/img/screenshot_2.jpeg?raw=true "Title")
-
 ### Implementation
 ```
 // Fecth API to get data from the OpenWeatherMap API 
@@ -25,3 +21,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather/?q='+ city + "&units=metri
         console.warn(error);
     });
 ```
+
+### Screenshots
+![Screenshot 1](./WeatherApp/img/screenshot_1.jpeg?raw=true "Title")
+![Screenshot 2](./WeatherApp/img/screenshot_2.jpeg?raw=true "Title")
