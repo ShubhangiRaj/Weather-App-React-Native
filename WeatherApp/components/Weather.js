@@ -38,7 +38,7 @@ export default class Weather extends Component {
             city:city
         });
 
-        // Fecth API to get data from the OpenWeaherMap API 
+        // Fecth API to get data from the OpenWeatherMap API 
         fetch('http://api.openweathermap.org/data/2.5/weather/?q='+ city + "&units=metric" + "&APPID=a5cc950df1a1ee711cf9a6e2e4962ba4")
             .then((response) => response.json())
             .then((responseJSON) => {
