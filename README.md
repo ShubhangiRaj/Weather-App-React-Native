@@ -4,7 +4,7 @@ Type city name to fetch current weather report from OpenWeatherMap API.
 
 ### Implementation
 ```
-// Fecth API to get data from the OpenWeaherMap API 
+// Fecth API to get data from the OpenWeatherMap API 
 fetch('http://api.openweathermap.org/data/2.5/weather/?q='+ city + "&units=metric" + "YOUR_API_KEY")
     .then((response) => response.json())
     .then((responseJSON) => {
