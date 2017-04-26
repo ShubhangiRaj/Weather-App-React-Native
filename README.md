@@ -1,10 +1,9 @@
 # Weather-App-React-Native
 
-## Description
-### Type city name to fetch current weather report from OpenWeatherMap API.
+- Type city name to fetch current weather report from OpenWeatherMap API.
 
-## Implementation
-`
+### Implementation
+```
 // Fecth API to get data from the OpenWeaherMap API 
 fetch('http://api.openweathermap.org/data/2.5/weather/?q='+ city + "&units=metric" + "YOUR_API_KEY")
     .then((response) => response.json())
@@ -21,4 +20,4 @@ fetch('http://api.openweathermap.org/data/2.5/weather/?q='+ city + "&units=metri
     .catch((error) => {
         console.warn(error);
     });
-`
+```
